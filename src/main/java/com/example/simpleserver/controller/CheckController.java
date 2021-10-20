@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CheckController {
   @GetMapping
   public Object checkIsAlive() {
-    return Map.of("code", "200", "message", "ok");
+//    return Map.of("code", "200", "message", "ok");
+    return "{\"code\": \"200\", \"message\": \"ok\"}";
   }
 }
